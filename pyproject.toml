@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "apple-password-to-bitwarden"
+version = "0.1.0"
+description = ""
+authors = ["Michael Lyon <mlyon360@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

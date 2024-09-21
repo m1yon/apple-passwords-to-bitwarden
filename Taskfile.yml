@@ -1,0 +1,10 @@
+version: "3"
+
+tasks:
+  install:
+    cmds:
+      - poetry install
+
+  start:
+    cmds:
+      - poetry run python main.py {{.CLI_ARGS}}
